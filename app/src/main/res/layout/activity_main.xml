@@ -15,7 +15,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.starunion.collapselayout.CollapseLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <com.starunion.collapselib.CollapseLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/collapseLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
