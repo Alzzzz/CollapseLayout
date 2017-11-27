@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CollapseLayout">
+
+        <attr name="CollapseLayout_vertivalSpace" format="dimension" />
+        <attr name="CollapseLayout_pileWidth" format="dimension" />
+        <attr name="CollapseLayout_collapse_margin" format="dimension" />
+        <attr name="CollapseLayout_collapse_show" format="integer" />
+        <attr name="CollapseLayout_collapse_style" format="integer" />
+        <attr name="CollapseLayout_anchor_width" format="dimension" />
+        <attr name="CollapseLayout_collapse_count" format="integer" />
+        <attr name="CollapseLayout_total_count" format="integer" />
+    </declare-styleable>
+</resources>
