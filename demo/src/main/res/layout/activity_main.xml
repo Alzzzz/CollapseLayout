@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.starunion.collapselayout.MainActivity">
+    tools:context="com.starunion.demo.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,15 +15,25 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.starunion.collapselib.CollapseLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/collapseLayout"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_weight="1"
-        app:CollapseLayout_pileWidth="6dp"
-        app:CollapseLayout_anchor_width="40dp"
-        app:CollapseLayout_collapse_count="3"
-        app:CollapseLayout_total_count="5"/>
+        android:orientation="horizontal">
+        <com.starunion.collapselib.CollapseLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/collapseLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            app:CollapseLayout_collapse_count="3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#222222"
+            android:text="呵呵呵呵"/>
+    </LinearLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>

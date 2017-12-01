@@ -1,4 +1,4 @@
-package com.starunion.collapselayout;
+package com.starunion.demo;
 
 import org.junit.Test;
 
